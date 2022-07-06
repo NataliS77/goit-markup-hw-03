@@ -1,0 +1,261 @@
+:root {
+  --primary-text-color: #212121;
+  --main-text-color: #757575;
+  --title-text-color: #ffffff;
+  --acctent-color: #2196f3;
+  --primary-br-color: #ffffff;
+  --main-bg-color: #2f303a;
+  --acctent-bg-color: #188ce8;
+}
+
+body {
+  color: #212121;
+  background: #e5e5e5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  letter-spacing: 0.03em;
+}
+/* основной цвет текста #212121*/
+/* вторичный цвет  текста #757575 */
+/* акцент цвет текст #ffffff */
+/* доп цвет текста #000000 */
+/* фоновый цвет #ffffff */
+/* акцент #2196f3 */
+/* вторичный фоновый цвет #2F303A*/
+/*header*/
+header {
+  background: #ffffff;
+}
+.logo {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+span.accent {
+  color: var(--acctent-color);
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.nav-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--acctent-color);
+}
+.current {
+  color: var(--acctent-color);
+}
+
+.mail-auth {
+  color: var(--main-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.mail-auth:hover,
+.mail-auth:focus {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.actual {
+  color: var(--acctent-color);
+}
+
+.tel-auth {
+  color: var(--main-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.tel-auth:hover,
+.tel-auth:focus {
+  text-decoration: underline;
+  color: var(--acctent-color);
+}
+/* common style */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/*main*/
+.main {
+  background-color: #2f303a;
+}
+.main-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-btn {
+  color: var(--title-text-color);
+  background-color: var(--acctent-color);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--acctent-bg-color);
+}
+/*lifestyle*/
+.title-lifestyle {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.text-lifestyle {
+  color: var(--main-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/*about*/
+.title-about {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.title-team {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+}
+.text-name {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.text-team {
+  color: var(--main-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+/* footer */
+.footer {
+  background: var(--main-bg-color);
+}
+.address {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.mail-footer {
+  color: var(--title-text-color);
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.tel-footer {
+  color: var(--title-text-color);
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-logo {
+  color: var(--title-text-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  text-decoration: none;
+}
+span.footer-accent {
+  color: var(--acctent-color);
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+/*portfolio*/
+.list-btn {
+  color: var(--title-text-color);
+  background-color: var(--acctent-color);
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border: none;
+}
+.list-btn:hover,
+.list-btn:focus,
+.list-btn:active {
+  background-color: var(--acctent-color);
+}
+.btn {
+  color: var(--primary-text-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border: none;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--acctent-color);
+}
+
+.title-portfolio {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.text-portfolio {
+  color: var(--main-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+}
