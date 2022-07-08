@@ -10,7 +10,7 @@
 html {
   box-sizing: border-box;
 }
-
+*,
 * *::before,
 *::after {
   box-sizing: inherit;
@@ -36,7 +36,26 @@ body {
 /* акцент #2196f3 */
 /* вторичный фоновый цвет #2F303A*/
 /*header*/
-header {
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+  outline: 2px solid red;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
   background: #ffffff;
 }
 .logo {
@@ -57,6 +76,9 @@ span.accent {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+.nav-list {
+  display: flex;
 }
 .nav-link {
   color: var(--primary-text-color);
@@ -106,6 +128,8 @@ span.accent {
 }
 .link {
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 /*main*/
 .main {
@@ -162,7 +186,12 @@ span.accent {
   line-height: 1.16;
   text-align: center;
 }
-.title-team {
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.team-title {
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -182,6 +211,10 @@ span.accent {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
+}
+.team-list {
+  display: flex;
+  gap: 30px;
 }
 /* footer */
 .footer {

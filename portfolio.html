@@ -11,14 +11,22 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--header section-->
     <header class="header">
-      <nav>
+      <div class="container">
+         <nav>
         <a class="logo" href=""><span class="accent">Web</span>Studio</a>
-        <ul class="list site-nav">
+        <ul class="list nav-list">
           <li class="link">
             <a class="link nav-link" href="./index.html">Студия</a>
           </li>
@@ -28,7 +36,10 @@
           <li"><a class="link nav-link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="list auth-list">
+      </div>
+     
+      <div class="container">
+        <ul class="list auth-list">
         <li class="">
           <a class="link mail-auth" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -40,11 +51,14 @@
           >
         </li>
       </ul>
+      </div>
+      
     </header>
     <!--main-->
     <main>
       <section class="portfolo-section">
-        <ul class="list section-list">
+        <div class="container">
+           <ul class="list section-list">
           <li>
             <button class="list-btn" type="button">Все</button>
           </li>
@@ -53,9 +67,12 @@
           <li><button class="btn" type="button">Дизайн</button></li>
           <li><button class="btn" type="button">Маркетинг</button></li>
         </ul>
+        </div>
+       
         <!--Логичний зоголовок-->
         <h1>Портфолио</h1>
-        <ul class="list list-portfolio">
+        <div class="container">
+           <ul class="list list-portfolio">
           <li> 
             <a href="" class="link">
               <img src="./images/people.jpg" alt="people" width="370" />
@@ -131,11 +148,14 @@
             
           </li>
         </ul>
+        </div>
+       
       </section>
     </main>
     <!--footer-->
     <footer class="footer">
-      <a class="footer-logo" href=""
+      <div class="container">
+         <a class="footer-logo" href=""
         ><span class="footer-accent">Web</span>Studio</a
       >
       <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
@@ -149,6 +169,8 @@
           <a class="tel-footer link" href="tel:+380991111111">+38 099 111 11 11</a>
         </li>
       </ul>
+      </div>
+     
     </footer>
   </body>
 </html>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Document3</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,39 +24,45 @@
   <body>
     <!--шапка сайта-->
     <header class="header">
-      <nav>
-        <a class="logo" href=""><span class="accent">Web</span>Studio</a>
-        <ul class="list site-nav">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo" href=""><span class="accent">Web</span>Studio</a>
+          <ul class="list nav-list">
+            <li>
+              <a class="link nav-link current" href="./index.html">Студия</a>
+            </li>
+            <li>
+              <a class="link nav-link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li><a class="link nav-link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container">
+        <ul class="list auth-list">
           <li>
-            <a class="link nav-link current" href="./index.html">Студия</a>
+            <a class="link mail-auth actual" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="link nav-link" href="./portfolio.html">Портфолио</a>
+            <a class="link tel-auth" href="tle:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
-          <li><a class="link nav-link" href="">Контакты</a></li>
         </ul>
-      </nav>
-      <ul class="list auth-list">
-        <li>
-          <a class="link mail-auth actual" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="link tel-auth" href="tle:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!--main section-->
     <main>
       <section class="main">
-        <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+        <div class="container">
+           <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
         <button class="main-btn" type="button">Заказать суслугу</button>
       </section>
       <!--section lifestyle-->
       <section class="lifestyle">
+        <div class="container"></div>
         <ul class="list">
           <li class="item">
             <h3 class="title-lifestyle">Внимание к деталям</h3>
@@ -87,21 +93,27 @@
             </p>
           </li>
         </ul>
+        </div>
+       
       </section>
       <!--about section-->
       <section class="about">
-        <h2 class="title-about">Чем мы занимаемся</h2>
+        <div class="container">
+          <h2 class="title-about">Чем мы занимаемся</h2>
         <ul class="list about-list">
           <li><img src="./images/comp.jpg" alt="компьютер" width="370" /></li>
           <li><img src="./images/f_3.jpg" alt="телефон" width="370" /></li>
           <li><img src="./images/color.jpg" alt="цвет" width="370" /></li>
         </ul>
+        </div>
+        
       </section>
       <!--our team-->
       <section class="team">
-        <h2 class="title-team">Наша команда</h2>
-        <ul class="list list-team">
-          <li class="item">
+        <div class="container">
+          <h2 class="title team-title">Наша команда</h2>
+        <ul class="list team-list">
+          <li class=" item team-item">
             <img src="./images/img.jpg" alt="сотрудник" width="270" />
             <p class="text-name">Игорь Демьяненко</p>
             <p class="text-team">Product Designer</p>
@@ -122,10 +134,13 @@
             <p class="text-team">UI Designer</p>
           </li>
         </ul>
+        </div>
+        
       </section>
     </main>
     <footer class="footer">
-      <a class="footer-logo" href=""
+      <div class="container">
+        <a class="footer-logo" href=""
         ><span class="footer-accent">Web</span>Studio</a
       >
       <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
@@ -141,6 +156,8 @@
           >
         </li>
       </ul>
+      </div>
+      
     </footer>
   </body>
 </html>
