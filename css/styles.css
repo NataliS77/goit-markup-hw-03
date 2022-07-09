@@ -55,7 +55,7 @@ ul {
   margin: 0;
 }
 
-.header {
+.header-section {
   background: #ffffff;
 }
 .logo {
@@ -132,7 +132,8 @@ span.accent {
   margin: 0;
 }
 /*main*/
-.main {
+.main-section {
+  padding: 200px 452px;
   background-color: #2f303a;
   text-align: center;
 }
@@ -171,7 +172,12 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--acctent-bg-color);
 }
 /*lifestyle*/
+.lifestyle{
+  padding: 94px 215px;
+}
 .title-lifestyle {
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -180,6 +186,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   text-transform: uppercase;
 }
 .text-lifestyle {
+  margin-top: 0;
+  margin-bottom: 94px;
   color: var(--main-text-color);
 
   font-weight: 400;
@@ -188,6 +196,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /*about*/
 .title-about {
+  margin-top: 0;
+  margin-bottom: 50px;
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -196,11 +206,22 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   text-align: center;
 }
 .about-list {
+  margin-top: 0;
+    margin-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
+.about-item {
+ 
+}
+/*team*/
+.team{
+  padding: 94px 215px;
+}
 .team-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -208,13 +229,22 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   line-height: 1, 16;
   text-align: center;
 }
+.img{
+  margin-top: 0;
+    margin-bottom: 30px;
+}
 .text-name {
+  margin-top: 0;
+    margin-bottom: 10px;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
 .text-team {
+  margin-top: 0;
+    margin-bottom: 30px;
+  
   color: var(--main-text-color);
 
   font-weight: 400;
@@ -230,6 +260,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background: var(--main-bg-color);
 }
 .address {
+  margin-top: 0;
+    margin-bottom: 9px;
   color: var(--title-text-color);
   font-style: normal;
   font-weight: 400;
@@ -237,6 +269,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   line-height: 1.7;
 }
 .mail-footer {
+  margin-top: 0;
+    margin-bottom: 9px;
   color: var(--title-text-color);
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -244,6 +278,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   line-height: 1.7;
 }
 .tel-footer {
+  margin-top: 0;
+    margin-bottom: 60px;
   color: var(--title-text-color);
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -252,6 +288,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-logo {
+  margin-top: 0;
+    margin-bottom: 20px;
   color: var(--title-text-color);
   font-family: "Raleway";
   font-weight: 700;
