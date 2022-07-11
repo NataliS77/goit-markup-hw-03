@@ -422,6 +422,7 @@ span.footer-accent {
 }
 .portfolio-btn{
   display: flex;
+  margin-bottom: 50px;
   align-items: center;
   justify-content: center;
 }
@@ -448,7 +449,6 @@ span.footer-accent {
 }
 .btn {
   display: inline-block;
-  margin-bottom: 50px;
   padding: 6px 22px;
   border-radius: 4px;
 
