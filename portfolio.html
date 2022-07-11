@@ -23,7 +23,8 @@
   <body>
     <!--header section-->
     <header class="section header-section">
-      <nav class="container nav">
+      <div class="container header">
+      <nav class="nav">
         <div class="nav-logo">
         <a class="logo" href=""><span class="accent">Web</span>Studio</a>
         </div>
@@ -34,12 +35,13 @@
           <li class="item nav-item">
             <a class="link nav-link current" href="./portfolio.html">Портфолио</a>
           </li>
-          <li class="item nav-item"><a class="link nav-link" href="">Контакты</a></li>
+          <li class="item nav-item">
+            <a class="link nav-link" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
     
-     
-      <div class="container auth">
+      <!--contakt-->
         <ul class="list auth-list">
         <li class="item contakt-item">
           <a class="link mail-auth" href="mailto:info@devstudio.com"
@@ -53,8 +55,7 @@
         </li>
       </ul>
       </div>
-      
-    </header>
+          </header>
     <!--main-->
     <main>
       <section class="section portfolio-section">
@@ -71,7 +72,7 @@
         </div>
        
         <!--Логичний зоголовок-->
-        <h1 hidden>Портфолио</h1>
+        <h1 class="visually-hidden">Портфолио</h1>
         <div class="container foto-portfolio">
            <ul class="list list-portfolio">
           <li class="item portfolio-item"> 

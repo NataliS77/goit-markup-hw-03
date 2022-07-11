@@ -26,6 +26,19 @@ body {
 /* акцент #2196f3 */
 /* вторичный фоновый цвет #2F303A*/
 /*header*/
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -62,11 +75,19 @@ ul {
   background: #ffffff;
 
 }
-.nav{
+.header{
   display: flex;
   align-items: center;
+
 }
+.nav{
+  display: flex;
+}
+
 .logo {
+  display: block;
+  padding-top: 24px;
+    padding-bottom: 25px;
   color: #000000;
   font-family: "Raleway";
   font-weight: 700;
@@ -89,17 +110,26 @@ span.accent {
   margin-right: 93px;
 }
 .nav-list{
-  display: flex;
+display: flex;
+
 }
 .nav-list .item:not(:last-child){
 margin-right: 50px;
 } 
+.auth-list {
+display: flex;
+margin-left: auto;
 
- 
+}
 
-.nav-link {
+.auth-list .item+.item {
+margin-left: 50px;
+}
+ .nav-link {
   display: block;
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -113,19 +143,11 @@ margin-right: 50px;
 .current {
   color: var(--acctent-color);
 }
-.auth{
-  display: flex;
-  align-items: center;
-}
-.auth-list {
-  display: flex;
-}
-.auth-list .item +.item {
-  margin-left: 50px;
-}
+
 .mail-auth {
   display: block;
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--main-text-color);
 
   font-weight: 500;
@@ -206,7 +228,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /*lifestyle*/
 .lifestyle-section{
-padding: 94px;
+padding-bottom: 94px;
 }
 .lifestyle-list{
   display: flex;
