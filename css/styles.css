@@ -271,8 +271,8 @@ padding-bottom: 94px;
   line-height: 1.7;
 }
 /*about*/
-.section about{
-  display: flex;
+.section-about{
+  
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -322,27 +322,11 @@ padding-bottom: 94px;
     margin-bottom: 30px;
 }
 .card-team{
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
 }
-.first {
-  padding: 30px;
-    padding-right: 59px;
-    padding-left: 60px;
-  }
-  .second {
-    padding: 30px;
-      padding-right: 80px;
-      padding-left: 81px;
-  }
-  .third{
-    padding: 30px;
-      padding-right: 66px;
-      padding-left: 67px;
-  }
-  .fourth{
-    padding: 30px 68px;
 
-  }
 .text-name {
   margin-top: 0;
     margin-bottom: 10px;
@@ -353,7 +337,7 @@ padding-bottom: 94px;
 }
 .text-team {
   margin-top: 0;
-    margin-bottom: 30px;
+    
   
   color: var(--main-text-color);
 
@@ -434,7 +418,8 @@ span.footer-accent {
 /*portfolio*/
 /*bottem*/
 .portfolio-section{
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .section-list .item-btn:not(:last-child){
   margin-left: 8px;
